@@ -1,8 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 
-public class GraphicsMain extends JFrame{
+public class GraphicsMain extends JFrame {
 
 	//sets up the area to draw
 	public static void main(String[] args) {
