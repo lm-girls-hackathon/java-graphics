@@ -5,9 +5,13 @@ import java.awt.event.KeyListener;
 import javax.swing.*;
 
 public class GraphicsPanel extends JPanel implements KeyListener{
-
+	//declare variables you want to use here 
+	
 	// default constructor
+	// the constructor should also initialize any of the variables you declared above
 	public GraphicsPanel() {
+		//set variables to starting values here
+		
 		setPreferredSize(new Dimension(1280,720));  
 		this.setFocusable(true);					    
 		this.addKeyListener(this);
@@ -30,6 +34,9 @@ public class GraphicsPanel extends JPanel implements KeyListener{
 
 	@Override
 	//triggers when a key is typed 
+	// method: keyTyped()
+	// description: This method is called when a key is pressed and released. It basically combines the keyPressed and
+	//              keyReleased functions.  You can determine which key is typed using the KeyEvent object
 	public void keyTyped(KeyEvent e) {
 			//gets character data and stores in char c
 		        char c = e.getKeyChar();
