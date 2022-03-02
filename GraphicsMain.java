@@ -1,3 +1,5 @@
+//add school name, group number, and individual names
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
