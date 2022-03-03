@@ -64,6 +64,7 @@ public class GraphicsPanel extends JPanel implements KeyListener{
 			
 		if(e.getKeyCode() == KeyEvent.VK_RIGHT)
 				System.out.printLn("You pressed the right arrow");
+		this.repaint();
 		
 
 	}
